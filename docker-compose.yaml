@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    platform: linux/amd64
+    container_name: postgres_superset
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=everon  
+      - POSTGRES_PASSWORD=everon@0789
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - airflow
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "5050:80"
+    networks:
+      - airflow
+
+
+networks:
+  airflow:
+    driver: bridge
+
+volumes:
+  postgres_data:
