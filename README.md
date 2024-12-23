@@ -177,7 +177,14 @@ Từ đó ta *IntegratedOrders* có thể được update liên tục khi đư�
 ![trigger](./image/trigger.png)
 
 **Mô tả tổng quan:** Hình ảnh mô tả quy trình kích hoạt tự động trong **Azure Data Factory**, cho phép pipeline chạy theo lịch trình định kỳ.
-
 **Loại Trigger:** ScheduleTrigger – Pipeline được kích hoạt theo thời gian cụ thể.
-
 **Tần suất kích hoạt:** Mỗi 5 giờ (Every 5 Hours) – Pipeline tự động chạy mỗi 5 giờ một lần.
+
+### **Kết Luận**
+
+1. **Tự động hóa quy trình ETL:** Sử dụng **Azure Data Factory** để tự động hóa việc trích xuất, chuyển đổi và tải dữ liệu.  
+2. **Xử lý dữ liệu phân tán:** **Databricks** đảm bảo khả năng xử lý dữ liệu lớn một cách hiệu quả và linh hoạt.  
+3. **Lưu trữ tối ưu:** Dữ liệu được lưu trữ trên **Azure Data Lake Storage Gen2** để hỗ trợ truy cập và xử lý phân tán.  
+4. **Phân tích và báo cáo:** **Azure Synapse Analytics** cung cấp khả năng phân tích và báo cáo chi tiết.  
+5. **Trigger tự động:** Pipeline được kích hoạt định kỳ, đảm bảo dữ liệu luôn được cập nhật liên tục và chính xác.  
+
