@@ -81,7 +81,7 @@ Dữ liệu **CustomerDB** tại **Snowflake Cloud**
 
 Bởi vì Snowflake không hỗ trợ kết nối trực tiếp vào **Azure Data Lake Storage Gen2**, do đó cần một lớp trung gian như **Azure Blob Storage** như một bước đệm *(staging)*.
 
-![Snowflake_sink1](./image/Snowflake_sink1.png)
+![Snowflake_sink1](./image/Snowflakesink.png)
 
 <!-- 
 
