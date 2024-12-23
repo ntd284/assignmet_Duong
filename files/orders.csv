@@ -1,4 +1,4 @@
-﻿orderId,purchaseDate,branchId,branchName,CustomerID,customerName,totalAmount,status,statusValue,productId,productCode,productName,isMaster,price,note
+﻿orderId,OrderDate,branchId,branchName,CustomerID,customerName,totalAmount,status,statusValue,productId,productCode,productName,isMaster,price,note
 OD00001,12-10-2024,3,Chi nhánh Hồ Chí Minh,KH00988,Huỳnh Thị Thu Hà,67,Pending,0,4371,SP003,Điện thoại thông minh,True,2831662,Mua kèm giảm giá
 OD00002,07-05-2024,3,Chi nhánh Đà Nẵng,KH00707,Vũ Minh Quân,25,Pending,2,6136,SP001,Điện thoại thông minh,True,2613885,Khuyến mãi đặc biệt
 OD00003,19-10-2024,7,Chi nhánh Hải Phòng,KH00124,Ngô Văn Long,61,Cancelled,2,2624,SP004,Máy giặt,True,3483776,
