@@ -1,4 +1,4 @@
-﻿orderId,OrderDate,branchId,branchName,CustomerID,customerName,totalAmount,status,statusValue,productId,productCode,productName,isMaster,price,note
+﻿orderId,orderDate,branchId,branchName,CustomerID,customerName,totalAmount,status,statusValue,productId,productCode,productName,isMaster,price,note
 OD00001,12-10-2024,3,Chi nhánh Hồ Chí Minh,KH00988,Huỳnh Thị Thu Hà,67,Pending,0,4371,SP003,Điện thoại thông minh,True,2831662,Mua kèm giảm giá
 OD00002,07-05-2024,3,Chi nhánh Đà Nẵng,KH00707,Vũ Minh Quân,25,Pending,2,6136,SP001,Điện thoại thông minh,True,2613885,Khuyến mãi đặc biệt
 OD00003,19-10-2024,7,Chi nhánh Hải Phòng,KH00124,Ngô Văn Long,61,Cancelled,2,2624,SP004,Máy giặt,True,3483776,
@@ -396,3 +396,18 @@ OD00394,05-06-2024,1,Chi nhánh Hồ Chí Minh,KH00385,Phạm Thị Thanh Hươn
 OD00395,11-06-2024,5,Chi nhánh Hồ Chí Minh,KH00201,Phan Thị Mai,99,Pending,0,3221,SP004,Ghế văn phòng,False,1350417,Hàng giảm giá
 OD00396,21-04-2024,7,Chi nhánh Hồ Chí Minh,KH00741,Ngô Văn Long,43,Cancelled,1,4773,SP005,Máy giặt,True,7924684,Khuyến mãi đặc biệt
 OD00397,08-10-2024,7,Chi nhánh Đà Nẵng,KH00028,Phạm Thị Thanh Hương,11,Completed,2,8870,SP005,Đèn ngủ,True,3998413,Khuyến mãi đặc biệt
+OD00452,06-01-2024,8,Chi nhánh Hải Phòng,KH00722,Lý Thị Kim Chi,35,Cancelled,1,8322,SP001,Điện thoại thông minh,True,6463258,
+OD00453,04-02-2024,10,Chi nhánh Đà Nẵng,KH00564,Trần Thị Bích Ngọc,17,Cancelled,2,1736,SP003,Bàn làm việc,False,4488003,Mua kèm giảm giá
+OD00454,17-12-2024,6,Chi nhánh Hồ Chí Minh,KH00303,Huỳnh Thị Thu Hà,72,Cancelled,0,8762,SP004,Ghế văn phòng,True,9106166,
+OD00455,05-08-2024,10,Chi nhánh Hồ Chí Minh,KH00862,Đỗ Hoàng Anh,93,Pending,0,1821,SP002,Ghế văn phòng,True,6160722,
+OD00456,10-11-2024,10,Chi nhánh Hà Nội,KH00677,Hoàng Văn Tiến,87,Pending,1,7499,SP002,Máy giặt,False,8044825,Mua kèm giảm giá
+OD00457,01-12-2024,2,Chi nhánh Hải Phòng,KH00694,Nguyễn Văn A,60,Pending,2,7485,SP002,Điện thoại thông minh,False,587658,Khuyến mãi đặc biệt
+OD00458,29-06-2024,2,Chi nhánh Hải Phòng,KH00456,Huỳnh Thị Thu Hà,45,Completed,1,3825,SP002,Bàn làm việc,True,7759876,
+OD00459,06-04-2024,9,Chi nhánh Hồ Chí Minh,KH00685,Nguyễn Văn A,21,Completed,0,8122,SP001,Máy giặt,True,7227100,Hàng giảm giá
+OD00460,17-03-2024,4,Chi nhánh Hải Phòng,KH00643,Vũ Minh Quân,1,Completed,0,2851,SP004,Nồi cơm điện,True,6412556,
+OD00461,20-12-2024,5,Chi nhánh Hà Nội,KH00788,Đặng Thị Hạnh,16,Cancelled,1,1167,SP005,Tủ lạnh,True,431135,Hàng giảm giá
+OD00462,05-08-2024,3,Chi nhánh Hải Phòng,KH00604,Lê Minh Hoàng,51,Completed,1,3479,SP004,Sách giáo khoa,False,2412234,Hàng giảm giá
+OD00463,06-02-2024,5,Chi nhánh Hà Nội,KH00412,Lê Minh Hoàng,8,Pending,0,7314,SP001,Sách giáo khoa,False,3689613,Khuyến mãi đặc biệt
+OD00464,30-08-2024,8,Chi nhánh Hải Phòng,KH00173,Phạm Thị Thanh Hương,93,Cancelled,2,9037,SP005,Ghế văn phòng,False,5249367,Khuyến mãi đặc biệt
+OD00465,29-04-2024,7,Chi nhánh Hồ Chí Minh,KH00275,Phan Thị Mai,66,Pending,2,6552,SP003,Đèn ngủ,False,9111168,
+OD00466,10-04-2024,4,Chi nhánh Hải Phòng,KH00521,Bùi Thị Lan,16,Cancelled,0,3929,SP003,Đèn ngủ,True,3509558,Khuyến mãi đặc biệt
