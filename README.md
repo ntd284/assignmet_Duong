@@ -112,7 +112,7 @@ Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**
 
 ![sinksgit](./image/sinksgit.png)
 
-## 🔄 **3. Xử Lý Dữ Liệu (Transform)**  
+## 🔄 **3. Xử Lý Dữ Liệu (Transform)** ![Link](Cask-databrick-notebook.ipynb)
 
 ![process_process](./image/process_process.png)
 
@@ -123,5 +123,24 @@ Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**
 
 ![process](./image/processdata.png)
 
+Với các config chính liên quan tới Databrick và permission:
+
+```
+configs = {"fs.azure.account.auth.type": "OAuth",
+"fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
+"fs.azure.account.oauth2.client.id": "",
+"fs.azure.account.oauth2.client.secret": '',
+"fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com//oauth2/token"}
+
+
+if any(mount.mountPoint == "/mnt/cask-mount" for mount in dbutils.fs.mounts()):
+    print("Mount point already exists. Skipping mount.")
+else:
+    dbutils.fs.mount(
+        source="abfss://cask-container@caskng.dfs.core.windows.net",
+        mount_point="/mnt/cask-mount",
+        extra_configs=configs
+    )
+```
 
 
