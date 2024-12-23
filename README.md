@@ -190,4 +190,4 @@ Từ đó ta *IntegratedOrders* có thể được update liên tục khi đư�
 
 ---
 
-⚡️That's all for my project, thanks for watching. If you have any question, don't hesitate inbox me. [Linkedin][https://www.linkedin.com/in/tuanduong284/]⚡️
+⚡️That's all for my project, thanks for watching. If you have any question, don't hesitate inbox me. [Linkedin](https://www.linkedin.com/in/tuanduong284/) ⚡️
