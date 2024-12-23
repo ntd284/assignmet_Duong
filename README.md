@@ -22,6 +22,8 @@ Tài liệu này mô tả **quy trình tích hợp dữ liệu từ đầu đế
 - **Snowflake Cloud:** Dữ liệu thông tin khách hàng **(CustomerDB)** được import vào **Snowflake Cloud** bao gồm:
 
 ```
+CustomerDB
+
 {
   "CustomerID": "long",          // ID khách hàng
   "CustomerName": "string",      // Tên khách hàng
@@ -38,9 +40,11 @@ Tài liệu này mô tả **quy trình tích hợp dữ liệu từ đầu đế
   "createdDate": "datetime"      // Thời gian tạo
 }
 ```
-- **GitHub Repo:** Dữ liệu đơn hàng được trích xuất từ GitHub, bao gồm:
+- **GitHub Repo:** Dữ liệu đơn hàng **(Orders)** được trích xuất từ GitHub, bao gồm:
 
 ```
+Orders
+
 {
   "orderId": "long",            // ID đơn hàng
   "orderDate": "datetime",      // Ngày đặt hàng
@@ -59,7 +63,7 @@ Tài liệu này mô tả **quy trình tích hợp dữ liệu từ đầu đế
   "note": "string"              // Ghi chú đơn hàng
 }
 ```
-**AI-Generated Data:** Dữ liệu mẫu được tạo tự động theo định dạng chuẩn của **[KiotViet API](https://www.kiotviet.vn/huong-dan-su-dung-public-api-retail/)** để kiểm thử pipeline và mô phỏng dữ liệu thực tế.
+**AI-Generated Data:** Dữ liệu mẫu được tạo tự động bằng AI theo định dạng chuẩn của **[KiotViet API](https://www.kiotviet.vn/huong-dan-su-dung-public-api-retail/)** để kiểm thử pipeline và mô phỏng dữ liệu thực tế.
 
 ### **Quy trình trích xuất:**
 - **CustomerDB:** Dữ liệu khách hàng được sao chép từ Snowflake vào **Azure Blob Storage**.  
