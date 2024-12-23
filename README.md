@@ -64,10 +64,31 @@ Orders
   "note": "string"              // Ghi chú đơn hàng
 }
 ```
-**AI-Generated Data:** Dữ liệu mẫu được tạo tự động bằng AI theo định dạng chuẩn của **[KiotViet API](https://www.kiotviet.vn/huong-dan-su-dung-public-api-retail/)** để kiểm thử pipeline và mô phỏng dữ liệu thực tế.
+**AI-Generated Data:** Dữ liệu mẫu được tạo tự động bằng AI theo định dạng của **[KiotViet API](https://www.kiotviet.vn/huong-dan-su-dung-public-api-retail/)** để kiểm thử pipeline và mô phỏng dữ liệu thực tế.
+
 
 ### **Quy trình trích xuất:**
-- **CustomerDB:** Dữ liệu khách hàng được sao chép từ Snowflake vào **Azure Blob Storage**.  
-- **Orders:** Dữ liệu đơn hàng được chuyển vào **Azure Data Lake Storage Gen2**.  
+- **CustomerDB:** 
+Dữ liệu khách hàng được sao chép từ **Snowflake cloud** vào **Azure Blob Storage**. 
+
+Dữ liệu **CustomerDB** tại **Snowflake Cloud**
+
+![Snowflake Cloud](./image/Snowflake_source.png)
+
+Được import vào **DataFactory**, chúng ta có thể check như sau:
+
+![SnowFlake-ADF](./image/snowflake_adf.png)
+
+Bởi vì Snowflake không hỗ trợ kết nối trực tiếp: Snowflake không thể đẩy dữ liệu trực tiếp vào **Azure Data Lake Storage Gen2**, do đó cần một lớp trung gian như **Azure Blob Storage** như một bước đệm *(staging)*.
 
 
+
+
+
+<!-- 
+
+-- **Orders:** Dữ liệu orders được sao chép từ **Github repo** vào **Azure Data Lake Storage Gen2**. 
+
+Dữ liệu **Orders** tại **Github repo**
+
+![Github_repo](./image/Github_repo.png) -->
