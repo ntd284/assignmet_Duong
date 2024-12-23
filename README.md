@@ -68,6 +68,9 @@ Orders
 
 
 ### **Quy trình trích xuất:**
+
+![Extract](./image/extract.png)
+
 - **CustomerDB:** 
 Dữ liệu khách hàng được sao chép từ **Snowflake cloud** vào **Azure Blob Storage**. 
 
@@ -94,10 +97,5 @@ Tại Sink loads vào **Azure Data Lake Storage Gen2**:
 
 ![sink1](./image/sink_blobgen1.png)
 ![sink2](./image/sink_blobgen2.png)
-<!-- 
 
--- **Orders:** Dữ liệu orders được sao chép từ **Github repo** vào **Azure Data Lake Storage Gen2**. 
-
-Dữ liệu **Orders** tại **Github repo**
-
-![Github_repo](./image/Github_repo.png) -->
+- **Orders:** 
