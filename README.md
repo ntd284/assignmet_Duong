@@ -99,7 +99,6 @@ Tại Sink dữ liệu Customer được loads vào **Azure Data Lake Storage Ge
   <img src="./image/sink_blobgen1.png" alt="lal" width='300'>
 </p>
 
-
 ![sink2](./image/sink_blobgen2.png)
 
 - **Orders:** Dữ liệu đơn hàng được chuyển vào **Azure Data Lake Storage Gen2** qua **HTTP**:
@@ -110,7 +109,10 @@ Source tại Github repo:
 
 Tại Source trích xuất từ **HTTP**:
 
-![sourcegit0](./image/sourcegit0.png)
+<p align="center">
+  <img src="./image/sourcegit0.png" alt="lal" width='300'>
+</p>
+
 ![sourcegit](./image/sourcegit.png)
 
 Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**:
