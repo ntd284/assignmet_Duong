@@ -117,7 +117,9 @@ Tại Source trích xuất từ **HTTP**:
 
 Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**:
 
-![sinksgit](./image/sinksgit.png)
+<p align="center">
+  <img src="./image/sinksgit.png" alt="lal" width='300'>
+</p>
 
 ## 🔄 **3. Xử Lý Dữ Liệu (Transform)** [Link](Cask-databrick-notebook.ipynb)
 
