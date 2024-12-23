@@ -96,7 +96,7 @@ Tại Sink dữ liệu Customer được loads vào **Azure Data Lake Storage Ge
 
 
 <p align="center">
-  <img src="./image/sink_blobgen1.png" alt="lal" width='100'>
+  <img src="./image/sink_blobgen1.png" alt="lal" width='50'>
 </p>
 
 
