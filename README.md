@@ -98,4 +98,14 @@ Tại Sink loads vào **Azure Data Lake Storage Gen2**:
 ![sink1](./image/sink_blobgen1.png)
 ![sink2](./image/sink_blobgen2.png)
 
-- **Orders:** 
+- **Orders:** Dữ liệu đơn hàng được chuyển vào **Azure Data Lake Storage Gen2** qua **HTTP**:
+
+Source tại Github repo:
+
+![gitsource](./image/Github_repo.png)
+
+Tại Source trích xuất từ **HTTP**:
+
+![sourcegit0](./image/sourcegit0.png)
+![sourcegit](./image/sourcegit.png)
+
