@@ -171,3 +171,8 @@ Từ **Azure Synapse Analytics**, ta có thể trích xuất các file đã đư
 Từ đó ta *IntegratedOrders* có thể được update liên tục khi được dùng tới.
 
 ![IntegratedOrders](./image/IntegratedOrders.png)
+
+## 📊 **5. Hệ thống kích hoạt tự động**  
+
+![trigger](./image/trigger.png)
+
