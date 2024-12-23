@@ -94,7 +94,12 @@ Tại Source trích xuất từ **Azure Blob Storage**:
 
 Tại Sink dữ liệu Customer được loads vào **Azure Data Lake Storage Gen2**:
 
-![sink1](./image/sink_blobgen1.png)
+
+<p align="center">
+  <img src="./image/sink_blobgen1.png" alt="lal" width='100'>
+</p>
+
+
 ![sink2](./image/sink_blobgen2.png)
 
 - **Orders:** Dữ liệu đơn hàng được chuyển vào **Azure Data Lake Storage Gen2** qua **HTTP**:
