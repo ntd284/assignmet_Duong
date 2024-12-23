@@ -130,7 +130,7 @@ Permission chúng ta sẽ phải đăng ký đối với Storage muốn sử d�
 
 ![permission_storage.png](./image/permission_storage.png)
 
-Sau đó lấy các thông tin cần thiết như *client_id*, *client_secret* và *directory*
+Sau đó lấy các thông tin cần thiết như *client_id*, *client_secret* và *directory* và thêm vào config
 ```
 configs = {"fs.azure.account.auth.type": "OAuth",
 "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
@@ -148,4 +148,15 @@ else:
     )
 ```
 
+Load dữ liệu đã được xử lý vào **Azure Data Lake Storage Gen2** dành cho việc tiếp theo:
+
+![result](./image/result.png)
+
+![result_picture](./image/result_picture.png)
+
+## 📊 **4. Tải Dữ Liệu (Load)**  
+
+### **Quy trình tải dữ liệu:**  
+- Dữ liệu đã xử lý từ **Databricks** được tải vào **Azure Synapse Analytics**.  
+- Tạo bảng dữ liệu phân tích tổng hợp phục vụ báo cáo.  
 
