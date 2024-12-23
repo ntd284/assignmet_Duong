@@ -92,7 +92,7 @@ Tại Source trích xuất từ **Azure Blob Storage**:
 ![source](./image/blob_to_gen2_1.png)
 ![source2](./image/blob_to_gen2_2.png)
 
-Tại Sink loads vào **Azure Data Lake Storage Gen2**:
+Tại Sink dữ liệu Customer được loads vào **Azure Data Lake Storage Gen2**:
 
 ![sink1](./image/sink_blobgen1.png)
 ![sink2](./image/sink_blobgen2.png)
@@ -108,7 +108,20 @@ Tại Source trích xuất từ **HTTP**:
 ![sourcegit0](./image/sourcegit0.png)
 ![sourcegit](./image/sourcegit.png)
 
-Tại Sink loads vào **Azure Data Lake Storage Gen2**:
+Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**:
 
 ![sinksgit](./image/sinksgit.png)
+
+## 🔄 **3. Xử Lý Dữ Liệu (Transform)**  
+
+![process_process](./image/process_process.png)
+
+### **Quy trình xử lý dữ liệu:**  
+- Sử dụng **Databricks Notebook** để:  
+   - Làm sạch và chuẩn hóa dữ liệu.  
+   - Kết hợp dữ liệu khách hàng và đơn hàng.  
+
+![process](./image/process_data.png)
+
+
 
