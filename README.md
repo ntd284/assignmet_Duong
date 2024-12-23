@@ -1,7 +1,7 @@
 # 🚀 Dự Án Cask Insight: Phân Tích Thông Tin Khách Hàng và Đơn Hàng
 
 # 📚 **Tổng Quan Dự Án**  
-Tài liệu này mô tả **quy trình tích hợp dữ liệu từ đầu đến cuối** dành cho **Nền tảng Xử lý và Phân tích Dữ liệu Khách hàng**. Hệ thống được thiết kế để tích hợp và xử lý dữ liệu từ nhiều nguồn, sau đó sử dụng cho những mục đích nghiên cứu khác nhau.
+Tài liệu này mô tả quy trình để tích hợp và xử lý dữ liệu từ nhiều nguồn, sau đó sử dụng cho những mục đích **Phân tích hành vi người tiêu dùng**.
 
 ---
 
