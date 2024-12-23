@@ -112,11 +112,12 @@ Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**
 
 ![sinksgit](./image/sinksgit.png)
 
-## 🔄 **3. Xử Lý Dữ Liệu (Transform)** ![Link](Cask-databrick-notebook.ipynb)
+## 🔄 **3. Xử Lý Dữ Liệu (Transform)** [Link](Cask-databrick-notebook.ipynb)
 
 ![process_process](./image/process_process.png)
 
 ### **Quy trình xử lý dữ liệu:**  
+
 - Sử dụng **Databricks Notebook** để:  
    - Làm sạch và chuẩn hóa dữ liệu.  
    - Kết hợp dữ liệu khách hàng và đơn hàng.  
