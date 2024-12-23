@@ -123,7 +123,9 @@ Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**
 
 ## 🔄 **3. Xử Lý Dữ Liệu (Transform)** [Link](Cask-databrick-notebook.ipynb)
 
-![process_process](./image/process_process.png)
+<p align="center">
+  <img src="./image/process_process.png" alt="lal" width='500'>
+</p>
 
 ### **Quy trình xử lý dữ liệu:**  
 
