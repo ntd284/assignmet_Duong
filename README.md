@@ -1,20 +1,26 @@
 # 🚀 Dự Án Cask Insight: Phân Tích Thông Tin Khách Hàng và Đơn Hàng
 
-📚 Tổng Quan Dự Án
+# 📚 **Tổng Quan Dự Án**  
+Tài liệu này mô tả **quy trình tích hợp dữ liệu từ đầu đến cuối** dành cho **Nền tảng Xử lý và Phân tích Dữ liệu Khách hàng **. Hệ thống được thiết kế để tích hợp và xử lý dữ liệu từ nhiều nguồn thông qua các luồng xử lý theo lô (**Batch Processing**) nhằm cung cấp báo cáo và phân tích chi tiết.
 
-Dự án này xây dựng quy trình ETL (Extract - Transform - Load) từ đầu đến cuối nhằm thu thập, xử lý và phân tích dữ liệu khách hàng và đơn hàng. Hệ thống sử dụng các dịch vụ dữ liệu như Azure Data Factory, Azure Data Lake Gen2, Databricks, và Azure Synapse Analytics.
+---
 
-![Extract Pipeline](./image/background.png)
+## 🛠️ **1. Kiến Trúc Quy Trình Tích Hợp**
 
-## 1. Kiến Trúc Quy Trình Dữ Liệu
+### 📊 **Sơ Đồ Tích Hợp Dữ Liệu**  
+![Quy trình tích hợp dữ liệu](./image/background.png)
 
-📤 **Bước 1: Trích Xuất Dữ Liệu (Extract)**
-**Dữ liệu khách hàng:** Truy xuất từ **Snowflake Cloud** và lưu trữ vào **Azure Blob Storage**.
-**Dữ liệu đơn hàng:** Lấy từ **GitHub repo** cá nhân qua **HTTP** và lưu dưới dạng CSV vào **Azure Data Lake Storage Gen2**.
+### **Quy trình tích hợp bao gồm các bước chính:**
+1. **Thu thập dữ liệu:** Dữ liệu khách hàng từ **Snowflake Cloud** và dữ liệu đơn hàng từ **GitHub repository** qua API và HTTP.  
+2. **Lưu trữ dữ liệu:** Lưu trữ vào **Azure Blob Storage** và **Azure Data Lake Storage Gen2**.  
+3. **Xử lý dữ liệu:** Dữ liệu được làm sạch và chuẩn hóa trên **Databricks**.  
+4. **Tải dữ liệu:** Dữ liệu đã xử lý được tải vào **Azure Synapse Analytics**.  
+5. **Phân tích dữ liệu:** Dữ liệu được truy vấn và phân tích sâu qua **Apache Superset**.  
 
-🛠️ **Bước 2: Xử Lý Dữ Liệu (Transform)**
-Sử dụng Databricks Notebook để làm sạch, chuẩn hóa và biến đổi dữ liệu.
-Kết hợp dữ liệu khách hàng và đơn hàng thành bảng dữ liệu tổng hợp.
+---
 
-📥 **Bước 3: Tải Dữ Liệu (Load)**
-Dữ liệu đã xử lý được tải vào **Azure Synapse Analytics** để phục vụ mục đích phân tích chuyên sâu.
+
+
+
+
+
