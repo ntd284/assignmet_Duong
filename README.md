@@ -2,6 +2,7 @@
 
 # 📚 **Tổng Quan Dự Án**  
 Tài liệu này mô tả **quy trình tích hợp dữ liệu từ đầu đến cuối** dành cho **Nền tảng Xử lý và Phân tích Dữ liệu Khách hàng**. Hệ thống được thiết kế để tích hợp và xử lý dữ liệu từ nhiều nguồn, sau đó sử dụng cho những mục đích nghiên cứu khác nhau.
+
 ---
 
 ## 🛠️ **1. Kiến Trúc Quy Trình Tích Hợp**
