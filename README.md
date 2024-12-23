@@ -43,7 +43,7 @@ CustomerDB
   "createdDate": "datetime"      // Thời gian tạo
 }
 ```
-- **GitHub Repo:** Dữ liệu đơn hàng **(Orders)** được trích xuất từ GitHub, bao gồm:
+- **GitHub Repo:** Dữ liệu đơn hàng **(Orders)** được trích xuất từ [files](./files/Orders.csv), bao gồm:
 
 ```
 Orders
