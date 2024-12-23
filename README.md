@@ -126,13 +126,17 @@ Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**
 
 Với các config chính liên quan tới Databrick và permission:
 
+Permission chúng ta sẽ phải đăng ký đối với Storage muốn sử dụng:
+
+![permission_storage.png](./image/permission_storage.png)
+
+Sau đó lấy các thông tin cần thiết như *client_id*, *client_secret* và *directory*
 ```
 configs = {"fs.azure.account.auth.type": "OAuth",
 "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
-"fs.azure.account.oauth2.client.id": "",
-"fs.azure.account.oauth2.client.secret": '',
-"fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com//oauth2/token"}
-
+"fs.azure.account.oauth2.client.id": "[client_id]",
+"fs.azure.account.oauth2.client.secret": 'client_secret',
+"fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com/[directory]/oauth2/token"}
 
 if any(mount.mountPoint == "/mnt/cask-mount" for mount in dbutils.fs.mounts()):
     print("Mount point already exists. Skipping mount.")
