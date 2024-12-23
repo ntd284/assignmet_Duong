@@ -20,7 +20,7 @@ Tài liệu này mô tả quy trình để tích hợp và xử lý dữ liệu 
 ## 📥 **2. Thu Thập Dữ Liệu (Extract)**  
 
 ### **Nguồn Dữ Liệu:**
-- **Snowflake Cloud:** Dữ liệu thông tin khách hàng **(CustomerDB)** được import vào **Snowflake Cloud** bao gồm:
+- **Snowflake Cloud:** Dữ liệu thông tin khách hàng **(CustomerDB)** được trích xuất từ **Snowflake Cloud** bao gồm:
 
 ```
 CustomerDB
