@@ -152,11 +152,15 @@ Load dữ liệu đã được xử lý vào **Azure Data Lake Storage Gen2** d�
 
 ![result](./image/result.png)
 
+![Transformed](./image/Transformed.png)
+
 ![result_picture](./image/result_picture.png)
 
 ## 📊 **4. Tải Dữ Liệu (Load)**  
 
 ### **Quy trình tải dữ liệu:**  
+
+![Loadsbackground](./image/Loadsbackground.png)
+
 - Dữ liệu đã xử lý từ **Databricks** được tải vào **Azure Synapse Analytics**.  
-- Tạo bảng dữ liệu phân tích tổng hợp phục vụ báo cáo.  
 
