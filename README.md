@@ -83,6 +83,17 @@ Bởi vì Snowflake không hỗ trợ kết nối trực tiếp vào **Azure Dat
 
 ![Snowflake_sink1](./image/Snowflakesink.png)
 
+Bước tiếp theo sẽ copy dữ liệu từ **Azure Blob Storage** sang **Azure Data Lake Storage Gen2** với source và sink như sau:
+
+Tại Source trích xuất từ **Azure Blob Storage**:
+
+![source](./image/blob_to_gen2_1.png)
+![source2](./image/blob_to_gen2_2.png)
+
+Tại Sink loads vào **Azure Data Lake Storage Gen2**:
+
+![sink1](./image/sink_blobgen1.png)
+![sink2](./image/sink_blobgen2.png)
 <!-- 
 
 -- **Orders:** Dữ liệu orders được sao chép từ **Github repo** vào **Azure Data Lake Storage Gen2**. 
