@@ -188,3 +188,6 @@ Từ đó ta *IntegratedOrders* có thể được update liên tục khi đư�
 4. **Phân tích và báo cáo:** **Azure Synapse Analytics** cung cấp khả năng phân tích và báo cáo chi tiết.  
 5. **Trigger tự động:** Pipeline được kích hoạt định kỳ, đảm bảo dữ liệu luôn được cập nhật liên tục và chính xác.  
 
+---
+
+⚡️That's all for my project, thanks for watching. If you have any question, don't hesitate inbox me.⚡️
