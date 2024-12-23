@@ -164,3 +164,10 @@ Load dữ liệu đã được xử lý vào **Azure Data Lake Storage Gen2** d�
 
 - Dữ liệu đã xử lý từ **Databricks** được tải vào **Azure Synapse Analytics**.  
 
+Từ **Azure Synapse Analytics**, ta có thể trích xuất các file đã được loads lên từ **Databricks**.
+
+![synapse](./image/synapse.png)
+
+Từ đó ta *IntegratedOrders* có thể được update liên tục khi được dùng tới.
+
+![IntegratedOrders](./image/IntegratedOrders.png)
