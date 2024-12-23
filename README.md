@@ -19,6 +19,8 @@ Tài liệu này mô tả quy trình để tích hợp và xử lý dữ liệu 
 
 ## 📥 **2. Thu Thập Dữ Liệu (Extract)**  
 
+![Extract](./image/extract.png)
+
 ### **Nguồn Dữ Liệu:**
 - **Snowflake Cloud:** Dữ liệu thông tin khách hàng **(CustomerDB)** được trích xuất từ **Snowflake Cloud** bao gồm:
 
@@ -68,8 +70,6 @@ Orders
 
 
 ### **Quy trình trích xuất:**
-
-![Extract](./image/extract.png)
 
 - **CustomerDB:** 
 Dữ liệu khách hàng được sao chép từ **Snowflake cloud** vào **Azure Blob Storage**. 
