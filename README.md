@@ -4,6 +4,8 @@
 
 Dự án này xây dựng quy trình ETL (Extract - Transform - Load) từ đầu đến cuối nhằm thu thập, xử lý và phân tích dữ liệu khách hàng và đơn hàng. Hệ thống sử dụng các dịch vụ dữ liệu như Azure Data Factory, Azure Data Lake Gen2, Databricks, và Azure Synapse Analytics.
 
+![Extract Pipeline](./image/background.png)
+
 ## 1. Kiến Trúc Quy Trình Dữ Liệu
 
 📤 **Bước 1: Trích Xuất Dữ Liệu (Extract)**
