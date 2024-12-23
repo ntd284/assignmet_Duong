@@ -121,7 +121,7 @@ Tại Sink dữ liệu order được load vào **Azure Data Lake Storage Gen2**
    - Làm sạch và chuẩn hóa dữ liệu.  
    - Kết hợp dữ liệu khách hàng và đơn hàng.  
 
-![process](./image/process_data.png)
+![process](./image/processdata.png)
 
 
 
