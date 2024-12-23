@@ -176,3 +176,8 @@ Từ đó ta *IntegratedOrders* có thể được update liên tục khi đư�
 
 ![trigger](./image/trigger.png)
 
+**Mô tả tổng quan:** Hình ảnh mô tả quy trình kích hoạt tự động trong **Azure Data Factory**, cho phép pipeline chạy theo lịch trình định kỳ.
+
+**Loại Trigger:** ScheduleTrigger – Pipeline được kích hoạt theo thời gian cụ thể.
+
+**Tần suất kích hoạt:** Mỗi 5 giờ (Every 5 Hours) – Pipeline tự động chạy mỗi 5 giờ một lần.
